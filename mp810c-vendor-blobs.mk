@@ -16,6 +16,7 @@
 
 
 PRODUCT_COPY_FILES += \
+  vendor/mediacom/mp810c/proprietary/lib/libEGL.so:system/lib/libEGL.so \
   vendor/mediacom/mp810c/proprietary/lib/libGAL.so:system/lib/libGAL.so \
   vendor/mediacom/mp810c/proprietary/lib/libGLSLC.so:system/lib/libGLSLC.so \
   vendor/mediacom/mp810c/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
@@ -65,6 +66,7 @@ PRODUCT_COPY_FILES += \
   vendor/mediacom/mp810c/proprietary/lib/hw/camera.rk29board.so:system/lib/hw/camera.rk29board.so \
   vendor/mediacom/mp810c/proprietary/lib/hw/copybit.rk29board.so:system/lib/hw/copybit.rk29board.so \
   vendor/mediacom/mp810c/proprietary/lib/hw/gralloc.rk29board.so:system/lib/hw/gralloc.rk29board.so \
+  vendor/mediacom/mp810c/proprietary/lib/hw/hwcomposer.rk29board.so:system/lib/hw/hwcomposer.rk29board.so \
   vendor/mediacom/mp810c/proprietary/lib/hw/lights.rk29board.so:system/lib/hw/lights.rk29board.so \
   vendor/mediacom/mp810c/proprietary/lib/hw/sensors.rk29board.so:system/lib/hw/sensors.rk29board.so \
   vendor/mediacom/mp810c/proprietary/lib/egl/libEGL_VIVANTE.so:system/lib/egl/libEGL_VIVANTE.so \
