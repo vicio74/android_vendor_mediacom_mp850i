@@ -21,6 +21,7 @@ PRODUCT_COPY_FILES += \
   vendor/mediacom/mp810c/proprietary/lib/libGLSLC.so:system/lib/libGLSLC.so \
   vendor/mediacom/mp810c/proprietary/lib/libOMX_Core.so:system/lib/libOMX_Core.so \
   vendor/mediacom/mp810c/proprietary/lib/libapedec.so:system/lib/libapedec.so \
+  vendor/mediacom/mp810c/proprietary/lib/libgui.so:system/lib/libgui.so \
   vendor/mediacom/mp810c/proprietary/lib/libion.so:system/lib/libion.so \
   vendor/mediacom/mp810c/proprietary/lib/libjpeghwdec.so:system/lib/libjpeghwdec.so \
   vendor/mediacom/mp810c/proprietary/lib/libjpeghwenc.so:system/lib/libjpeghwenc.so \
@@ -32,6 +33,8 @@ PRODUCT_COPY_FILES += \
   vendor/mediacom/mp810c/proprietary/lib/libstagefright.so:system/lib/libstagefright.so \
   vendor/mediacom/mp810c/proprietary/lib/libstagefright_foundation.so:system/lib/libstagefright_foundation.so \
   vendor/mediacom/mp810c/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+  vendor/mediacom/mp810c/proprietary/lib/libsurfaceflinger.so:system/lib/libsurfaceflinger.so \
+  vendor/mediacom/mp810c/proprietary/lib/libsurfaceflinger_client.so:system/lib/libsurfaceflinger_client.so \
   vendor/mediacom/mp810c/proprietary/lib/libvpu.so:system/lib/libvpu.so \
   vendor/mediacom/mp810c/proprietary/lib/libwpa_client.so:system/lib/libwpa_client.so \
   vendor/mediacom/mp810c/proprietary/lib/libyuvtorgb.so:system/lib/libyuvtorgb.so \
@@ -80,5 +83,6 @@ PRODUCT_COPY_FILES += \
   vendor/mediacom/mp810c/proprietary/bin/mount.exfat:system/bin/mount.exfat \
   vendor/mediacom/mp810c/proprietary/bin/ntfs-3g:system/bin/ntfs-3g \
   vendor/mediacom/mp810c/proprietary/bin/ntfs-3g.probe:system/bin/ntfs-3g.probe \
+  vendor/mediacom/mp810c/proprietary/bin/surfaceflinger:system/bin/surfaceflinger \
   vendor/mediacom/mp810c/proprietary/bin/wpa_cli:system/bin/wpa_cli \
   vendor/mediacom/mp810c/proprietary/bin/wpa_supplicant:system/bin/wpa_supplicant
